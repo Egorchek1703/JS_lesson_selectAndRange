@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select (lesson 2)</title>
+</head>
+<body>
+    <!-- Select -->
+    <label>
+        <p>Когда покодить?</p>
+        <select class="select-list">
+            <option value="">Сейчас</option>
+            <option value="">Попозже</option>
+            <option value="">Вечером</option>
+            <option value="">Завтра</option>
+        </select>
+    </label>
+    <!-- Range -->
+    <label>
+        <p>Оцените нашу работу по десятибальной шкале</p>
+        <input class="range" type="range" max="10" min="0" step="1">
+        <p class="value-range"></p>
+    </label>
+
+    <div class="test-block" style="background: aqua; width: 100px; min-width: 100px; padding: 20px; text-align: center; transition: all ease-out 1s;">
+        <p>Я растягиваюсь, если ты ставишь хорошую оценку</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
